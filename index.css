@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0px;
+    background-color: #333;
+    /* Dark gray background */
+    color: #fff;
+    /* White text */
+    overflow: hidden;
+    /* Ensures no content overflows */
+    padding: 20px;
+    /* Padding for spacing */
+}
+
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+    /* Removes default list styling */
+    margin: 0;
+    /* Removes default margins */
+    padding: 0;
+    /* Removes default padding */
+}
+
+
+
+
+
+.navbar a {
+    color: inherit;
+    /* Inherits color from navbar */
+    text-decoration: none;
+    /* Removes underline */
+    padding: 10px 15px;
+    /* Padding for spacing */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    /* Light gray background on hover */
+    color: black;
+    /* Black text on hover */
+}
